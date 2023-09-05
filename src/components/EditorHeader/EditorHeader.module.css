@@ -1,0 +1,71 @@
+.header {
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+
+.left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.con * {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .title:focus {
+    border-color: #47acd4; /* Highlight border color on focus */
+  }
+
+  .company-name {
+    font-weight: bold;
+    font-size: 24px; /* Slightly increased font size */
+    text-decoration: none;
+    color:#47acd4;
+    cursor: pointer;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+}
+
+.right {
+    cursor: pointer;
+}
+
+.readOnly {
+    font-size: small;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.gap {
+    display: flex;
+    gap: 10px;
+}
+
+.gap * {
+    cursor: pointer;
+}
