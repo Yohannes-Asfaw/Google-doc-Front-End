@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4; /* Light gray background color */
+  font-family: 'Arial', sans-serif;
+  color: #333333; /* Dark text color */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  width: 40vw;
+  max-width: 500px;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-color: #ffffff; /* White background color */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 100%;
+}
+
+.form-container input {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light gray background color */
+  color: #333333;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-container input:focus {
+  border-color: #8a4baf; /* Light purple border on focus */
+  background-color: #ffffff; /* White background on focus */
+}
+
+.form-submit {
+  display: block;
+  margin-top: 30px;
+  padding: 15px 24px;
+  background-color: #47acd4;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #5fbde2;
+}
+
+.googleOath {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #8a4baf;
+  border-radius: 30px;
+  border: 2px solid #8a4baf;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.googleOath:hover {
+  background-color: #f4f4f4;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #338ec4;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  margin-left: 15px;
+}
+
+.button:hover {
+  background-color: #f4f4f4;
+}
+
+.login {
+  display: flex;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.error-text {
+  color: #ff6868;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+h1{
+  color:  #47acd4;
+}
