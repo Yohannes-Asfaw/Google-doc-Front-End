@@ -1,0 +1,50 @@
+.document-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px auto;
+    width: 80vw;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.noStyle {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+.back {
+	margin: 10px 5px;
+    cursor: pointer;
+}
+/* Add this style in your CSS file (e.g., Home.module.css) */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #47acd4; /* Green color for the button */
+    color: #ffffff;
+    padding: 15px; /* Adjusted padding for a larger button */
+    font-size: 20px; /* Font size */
+    border: none;
+    border-radius: 48%; /* Rounded corners for a circular shape */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Updated transition properties */
+    box-shadow: 0 15px 20px rgba(0.6, 0.6, 0.6, 0.6); /* Updated box shadow for a more noticeable effect */
+    z-index: 1; /* Initial z-index */
+}
+
+.floating-button:hover {
+    transform: translateY(-5px); /* Move button up slightly on hover */
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.4); /* Adjusted box shadow on hover for emphasis */
+    z-index: 2; /* Increase z-index on hover */
+}
+
+
+  
+  
+  
+  
